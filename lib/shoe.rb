@@ -1,1 +1,3 @@
-# Make your shoe class here!
+# Make a shoe class
+class Shoe 
+  attr_reader :color, :size
