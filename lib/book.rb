@@ -5,7 +5,7 @@ class Book
     @title = title
   end
   
-  def next_page
+  def trun_page
     puts "Turn to next page" 
   end
 end
