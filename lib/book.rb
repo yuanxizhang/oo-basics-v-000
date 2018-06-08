@@ -4,7 +4,7 @@ class Book
 
   def initialize(title)
     @title = title
-    @@gebre << self
+    @@genre << self
   end
   
   def next_page
