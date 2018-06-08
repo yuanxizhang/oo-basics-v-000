@@ -10,4 +10,5 @@ class Book
   end
 end
 
-Book.new("Ender's Game")
+my_book = Book.new("Ender's Game")
+my_book.turn_page
