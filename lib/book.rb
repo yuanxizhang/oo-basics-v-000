@@ -1,11 +1,8 @@
 class Book
-  @@genre = []
-  attr_reader :title, 
-  attr_writer :author
+  attr_accessor :title, :author, :genre
 
   def initialize(title)
     @title = title
-    @@genre << self
   end
   
   def next_page
