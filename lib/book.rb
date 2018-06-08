@@ -2,7 +2,7 @@ class Book
   @@genre = []
   attr_reader :title, :author, :pages
 
-  def initailize(title)
+  def initialize(title)
     @title = title
     @@gebre << self
   end
